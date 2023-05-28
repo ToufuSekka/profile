@@ -3,22 +3,20 @@
 <head>
 <meta charset="utf-8">
 <link rel="stylesheet" href="CSS/Main.css">
+<link rel="stylesheet" href="CSS/MenuAnim.css">
 <title>실험용으로 사용하는 페이지.</title>
 </head>
 <body>
 	<img src="TestIMG/temp.png" style="height: 200px; width: 100%" />
 	<hr>
-	<div class="Menu">
-		<ol>
-			<li>내 개인에 대한것
-				<ol>
-					<li><a href="#Description">간단한 나에 대한것</a></li>
-					<li><a href="#Buff">내 상태창</a></li>
-					<li><a href="#Community">링크 모음집</a></li>
-				</ol>
-			</li>
-
-		</ol>
+	<div id="Base">
+		<ul class="Sup">
+			<li class="MainMenu"><a href="#">개인정보</a></li>
+			<li class=MainMenu><a href="#Description">개요</a></li>
+			<li class="MainMenu"><a href="#Buff">상태창</a></li>
+			<li class="MainMenu"><a href="#Community">각종링크</a></li>
+			<li class="MainMenu"><a href="EventList.html">이벤트 목록(공사중)</a></li>
+		</ul>
 	</div>
 	<hr>
 	<div id="Description">
@@ -38,7 +36,7 @@
 				<td class="TextMiddler">설명</td>
 			</tr>
 			<tr>
-				<td><img src="#" class="LinkIcon" /></td>
+				<td><img src="BuffSet/Reviver.png" class="LinkIcon" /></td>
 				<td>복귀자</td>
 				<td>(트위터) 월간 트윗 수치 +30%</td>
 				<td>트위터 활동량 늘리는중.<br />많이 소란스럽다.
@@ -76,13 +74,15 @@
 			</tr>
 			<tr>
 				<td>프로젝트</td>
-				<td><a href="#"> <img src="#" class="LinkIcon" /></a></td>
-				<td><a href="#"><img src="#" class="LinkIcon" /></a></td>
+				<td><a href="https://twitter.com/SDx2Games"> <img
+						src="CommonIMG/SDX2_LOGO.png" class="LinkIcon" /></a></td>
+				<td><a href="http://mc_neptune.net"><img
+						src="CommonIMG/MCNeptune.png" class="LinkIcon" /></a></td>
 				<td><a href="#"><img src="#" class="LinkIcon" /></a></td>
 			</tr>
 		</table>
 	</div>
 	<hr>
-	<footer>최종 업데이트 : 2023.05.27</footer>
+	<footer>최종 업데이트 : 2023.05.29</footer>
 </body>
 </html>
