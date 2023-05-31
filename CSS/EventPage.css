@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+#SpecifInfo {
+	width: 240px;
+	height: 360px;
+	pointer-events: none;
+	position: absolute;
+	background: yellow;
+	display: none;
+	z-index: 1;
+}
+
+#Event0 {
+	width: 180px;
+	height: 60px;
+	position: absolute;
+	background: aqua;
+}
