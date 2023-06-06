@@ -5,15 +5,24 @@ div.FullBoard {
 }
 
 div.Menu {
-	border: black solid; display: inline-block; padding: 10px; background: silver;
+	border: black solid;
+	display: inline-block;
+	padding: 10px;
+	background: silver;
 }
 
 .imgSet {
-	width: 25%; height: 25%;
+	width: 25%;
+	height: 25%;
 }
+
 .imgSet:hover {
-	width: 50%; height: 50%;
+	width: 50%;
+	height: 50%;
 }
+
 p.Reedim {
-	font-size: 16px; font-style: italic; text-align: center;
+	font-size: 16px;
+	font-style: italic;
+	text-align: center;
 }

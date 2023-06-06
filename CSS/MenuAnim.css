@@ -1,32 +1,44 @@
 @charset "utf-8";
 
-#Base{
-	margin : 0;
+#Base {
+	margin: 0;
 	padding: 0;
 	width: 100%;
 	list-style: none;
 }
 
-#Base .Sup{
-	display :table;
+#Base .Sup {
+	display: table;
 }
 
-#Base .MainMenu{
-	height : 100px;
-	width : 100px;
-	
-	text-align : center;
+#Base .MainMenu {
+	height: 100px;
+	width: 100px;
+	text-align: center;
 	font-size: 20px;
-	position : relative;
-	display :block;
+	position: relative;
+	display: block;
 	float: left;
-	background: yellow;
+	background: #666666;
 }
 
-#Base .MainMenu a{
+#Base .MainMenu img {
+	left: 0;
+	position: absolute;
+}
+
+#Base .MainMenu span {
+	position: relative;
+	vertical-align: middle;
+	text-align: center;
+	color: #ffffff;
+	font: bold;
+}
+
+#Base .MainMenu a {
 	text-decoration: none;
 }
 
-#Base .MainMenu:hover{
-	background: blue;
+#Base .MainMenu:hover {
+	background: #bbbbbb;
 }

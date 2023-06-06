@@ -1,18 +1,43 @@
 @charset "utf-8";
 
+p {
+	text-align: center;
+}
+
+object {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
 #SpecifInfo {
-	width: 240px;
-	height: 360px;
+	width: 50%;
+	height: 100%;
+	word-break: break-all;
+	border: 4px solid black;
 	pointer-events: none;
-	position: absolute;
-	background: yellow;
 	display: none;
+	position: absolute;
+	background: gray;
+	overflow: hidden;
 	z-index: 1;
 }
 
-#Event0 {
+#EventCMN {
 	width: 180px;
 	height: 60px;
-	position: absolute;
 	background: aqua;
+}
+
+#EventCMN img {
+	position: relative;
+	float: left;
+	bottom: 25px;
+	right: 25px;
+}
+
+.PerfactFreedom {
+	position: relative;
+	top: 10px;
+	left: 400px;
 }
