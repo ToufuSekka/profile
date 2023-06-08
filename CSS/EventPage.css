@@ -23,21 +23,34 @@ object {
 	z-index: 1;
 }
 
-#EventCMN {
-	width: 180px;
-	height: 60px;
-	background: aqua;
+#Line {
+	width: 1920px;
+	height: 1920px;
 }
 
-#EventCMN img {
-	position: relative;
-	float: left;
-	bottom: 25px;
-	right: 25px;
+#Line line {
+	stroke-width: 12px;
+}
+
+#EventCMN {
+	width: 250px;
+	height: 155px;
+}
+
+#EventCMN rect {
+	width: 240px;
+	height: 100px;
+	stroke-width: 6px;
 }
 
 .PerfactFreedom {
-	position: relative;
-	top: 10px;
+	position: absolute;
+	top: 150px;
+	left: 400px;
+}
+
+.InternalSolution {
+	position: absolute;
+	top: 400px;
 	left: 400px;
 }

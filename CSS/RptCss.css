@@ -11,6 +11,10 @@ div.Menu {
 	background: silver;
 }
 
+summary.Big {
+	font-size: 32px;
+}
+
 .imgSet {
 	width: 25%;
 	height: 25%;
