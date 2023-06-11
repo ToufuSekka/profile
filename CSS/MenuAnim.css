@@ -15,6 +15,7 @@
 	height: 100px;
 	width: 100px;
 	text-align: center;
+	line-height: 100px;
 	font-size: 20px;
 	position: relative;
 	display: block;
@@ -29,9 +30,8 @@
 
 #Base .MainMenu span {
 	position: relative;
-	vertical-align: middle;
+	vertical-align: bottom;
 	text-align: center;
-	color: #ffffff;
 	font: bold;
 }
 
