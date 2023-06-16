@@ -46,17 +46,41 @@ object {
 .PerfactFreedom {
 	position: absolute;
 	top: 150px;
-	left: 400px;
+	left: 000px;
 }
 
 .InternalSolution {
 	position: absolute;
 	top: 350px;
-	left: 400px;
+	left: 000px;
 }
 
 .RepairWork {
 	position: absolute;
 	top: 550px;
-	left: 400px;
+	left: 000px;
+}
+
+.LostProject {
+	position: absolute;
+	top: 150px;
+	left: 600px;
+}
+
+.Play {
+	position: absolute;
+	top: 350px;
+	left: 300px;
+}
+
+.Technic {
+	position: absolute;
+	top: 350px;
+	left: 600px;
+}
+
+.Article {
+	position: absolute;
+	top: 150px;
+	left: 300px;
 }
