@@ -13,25 +13,21 @@
 		<ul class="Sup">
 			<li class="MainMenu"><a href="#">개인정보</a></li>
 			<li class=MainMenu><a href="#Description">개요</a></li>
-			<li class="MainMenu"><a href="#Buff">상태창</a></li>
-			<li class="MainMenu"><a href="#Community"><img
-					src="CommonIMG/Link.png" /><span style="color: Blue;">각종링크</span></a></li>
-			<li class="MainMenu"><a href="EventList.html"> <img
-					src="CommonIMG/Indicator.png" /> <span style="color: #ffffff;">이벤트목록
-				</span></a></li>
+			<li class="MainMenu"><a href="#Buff">버프상태</a></li>
+			<li class="MainMenu"><a href="#Community"><img src="CommonIMG/Link.png" /><span style="color: Blue;">각종링크</span></a></li>
+			<li class="MainMenu"><a href="EventList.html"> <img src="CommonIMG/Indicator.png" /> <span style="color: #ffffff;">이벤트목록</span></a></li>
 		</ul>
 	</div>
 	<hr>
 	<div id="Description">
-		기본 트위터 프로필(160자)로는 도저히 다 우겨 넣을수 없어서 내가 걍 깃블로그 페이지를 빌려 따로 만든다.<br />
-		모든걸 스스로 직조함으로써, 뭔가 엉성한 감이 있을수도 있음.<br /> 가끔 JavaScript 관련해서 내 개인적인
-		실험이 있을수도 있다.<br /> 온갓 이상한 기능이 나타나거나 어느 한순간에 사라질수도 있으니 대단히 주의 바람.<br />
+		기본 트위터 프로필(160자)로는 도저히 다 우겨 넣을수 없어서 내가 걍 깃블로그 페이지를 빌려 따로 만든다.<br /> 모든걸 스스로 직조함으로써, 뭔가 엉성한 감이 있을수도 있음.<br /> 가끔 JavaScript 관련해서 내 개인적인 실험이
+		있을수도 있다.<br /> 온갓 이상한 기능이 나타나거나 어느 한순간에 사라질수도 있으니 대단히 주의 바람.<br />
 	</div>
 	<hr>
 	<div id="Buff">
 		<table class="TableMiddler">
 			<tr>
-				<th colspan="4">근래의 상태창(2023.06.11~)</th>
+				<th colspan="4">근래의 상태창(2023.06.20~)</th>
 			</tr>
 			<tr>
 				<td class="TextMiddler">Icon</td>
@@ -72,42 +68,55 @@
 				<td><img src="#" class="LinkIcon" /></td>
 				<td>놓치지 않는다</td>
 				<td>(트위터) 맞팔로우 확률 : 90%</td>
-				<td>어떠한 작은 인연이라도 절대 놓치지 않습니다.<br />스쳐지나가 잊는 날이 올지라도, 최소 한번을
-					둘러봅니다.
+				<td>어떠한 작은 인연이라도 절대 놓치지 않습니다.<br />스쳐지나가 잊는 날이 올지라도, 최소 한번을 둘러봅니다.
 				</td>
 			</tr>
 		</table>
 	</div>
 	<hr>
 	<div id="Community">
-		<table class="TableMiddler">
+		<p class="TextMiddler">바로가는 링크(개인)</p>
+		<table>
 			<tr>
-				<th colspan="4">내 잡다한 프로젝트들의 링크들</th>
+				<td class="TextMiddler">Icon</td>
+				<td class="TextMiddler">링크 이름</td>
+				<td class="TextMiddler">설명</td>
 			</tr>
-			<tr>
-				<td rowspan="2">개인</td>
-				<td><a href="https://twitter.com/wint444"> <img
-						src="CommonIMG/Twitter.png" class="LinkIcon" />
-				</a></td>
-				<td><a href="https://github.com/ToufuSekka"><img
-						src="CommonIMG/github.png" class="LinkIcon" /></a></td>
+			<tr onclick="location.href='https://twitter.com/wint444/'">
+				<td><img src="CommonIMG/Twitter.png" class="LinkIcon" /></td>
+				<td>트위터</td>
+				<td>이 블로그 주인의 트위터</td>
 			</tr>
-			<tr>
-				<td>Twitter</td>
-				<td>Github</td>
+			<tr onclick="location.href='https://github.com/ToufuSekka/'">
+				<td><img src="CommonIMG/github.png" class="LinkIcon" /></td>
+				<td>깃헙</td>
+				<td>이 블로그 주인의 깃헙.<br />주 언어는 Java, C#, php이다.
+				</td>
 			</tr>
+		</table>
+		<br />
+		<p class="TextMiddler">바로가는 링크(팀)</p>
+		<table>
 			<tr>
-				<td rowspan="2">프로젝트</td>
-				<td><a href="https://twitter.com/SDx2Games"> <img
-						src="CommonIMG/SDX2_LOGO.png" class="LinkIcon" /></a></td>
-				<td><a href="http://mcneptune.net"><img
-						src="CommonIMG/MCNeptune.png" class="LinkIcon" /></a></td>
+				<td>Icon</td>
+				<td>링크 이름</td>
+				<td>설명</td>
 			</tr>
-			<tr>
-				<td>리듬게임</td>
-				<td>마크 </td>
+			<tr onclick="location.href='https://twitter.com/SDx2Games'">
+				<td><img src="CommonIMG/SDX2_LOGO.png" class="LinkIcon" /></td>
+				<td>SDx2Games<br />RhythmGameProject : LibroSphere
+				</td>
+				<td class="TextMiddler">리듬게임이다. 지금은 마크 서버 알리미로 쓰는중.</td>
+			</tr>
+			<tr onclick="location.href='http://mcneptune.net'">
+				<td><img src="CommonIMG/MCNeptune.png" class="LinkIcon" /></td>
+				<td>마인크래프트<br />천왕성 서버
+				</td>
+				<td>약간의 플러그인 기능이 있는 야생서버.<br />UUID를 먼저 등록 해야지만 접속가능하다.
+				</td>
 			</tr>
 		</table>
 	</div>
 </body>
+<footer> ㅇㅇ 내 블로그 </footer>
 </html>

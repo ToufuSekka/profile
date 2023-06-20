@@ -5,7 +5,8 @@ body {
 	margin: 0 auto;
 }
 
-table, tr, td, th .TableMiddler {
+table, tr, td, th{
+	text-align: center;
 	border: 1px solid black;
 	margin: 0 auto;
 }
