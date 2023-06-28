@@ -1,8 +1,10 @@
 let MouseC = document.getElementById('SpecifInfo');
 
 function DescView(M_POS) {
-	MouseC.style.left = M_POS.clientX + "px";
-	MouseC.style.top = M_POS.clientY + "px";
+	var LocX = M_POS.clientX + document.documentElement.scrollLeft;
+	var LocY = M_POS.clientY + document.documentElement.scrollTop;
+	MouseC.style.left = LocX + "px";
+	MouseC.style.top = LocY + "px";
 	MouseC.style.display = "block";
 }
 
