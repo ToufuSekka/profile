@@ -70,23 +70,29 @@ object {
 .LostProject {
 	position: absolute;
 	top: 150px;
-	left: 600px;
+	left: 900px;
 }
 
 .Play {
 	position: absolute;
 	top: 350px;
-	left: 300px;
+	left: 600px;
 }
 
 .Technic {
 	position: absolute;
 	top: 350px;
-	left: 600px;
+	left: 900px;
 }
 
 .Art {
 	position: absolute;
 	top: 350px;
-	left: 900px;
+	left: 1200px;
+}
+
+.Absolute {
+	position: absolute;
+	top: 550px;
+	left: 600px;
 }
