@@ -24,7 +24,7 @@ object {
 }
 
 #Line {
-	width: 1920px;
+	width: 2880px;
 	height: 1920px;
 }
 
@@ -79,6 +79,18 @@ object {
 	left: 300px;
 }
 
+.POPSecure {
+	position: absolute;
+	top: 550px;
+	left: 600px;
+}
+
+.VEC {
+	position: absolute;
+	top: 750px;
+	left: 450px;
+}
+
 .LostProject {
 	position: absolute;
 	top: 150px;
@@ -88,23 +100,23 @@ object {
 .Play {
 	position: absolute;
 	top: 350px;
-	left: 600px;
+	left: 900px;
 }
 
 .Technic {
 	position: absolute;
 	top: 350px;
-	left: 900px;
+	left: 1200px;
 }
 
 .Art {
 	position: absolute;
 	top: 350px;
-	left: 1200px;
+	left: 1500px;
 }
 
 .Absolute {
 	position: absolute;
 	top: 550px;
-	left: 600px;
+	left: 900px;
 }
