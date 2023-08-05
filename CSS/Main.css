@@ -5,7 +5,7 @@ body {
 	margin: 0 auto;
 }
 
-table, tr, td, th{
+table, tr, td, th {
 	text-align: center;
 	border: 1px solid black;
 	margin: 0 auto;
@@ -30,4 +30,8 @@ div.Menu {
 	display: inline-block;
 	padding: 10px;
 	background: silver;
+}
+
+pre {
+	font-size: 16px;
 }
