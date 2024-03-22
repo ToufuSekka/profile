@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+table {
+	margin: 0 auto;
+	text-align: center;
+}
+
+button {
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	width: 100px;
+	height: 100px;
+}
+
+#LibrSph .font {
+	opacity: 100%;
+	transition: 4s;
+}
+
+#LibrSph img {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top: 0%;
+	left: 0%;
+	opacity: 16.7%;
+	transition: 4s;
+}
+
+#LibrSph:hover .eclipse {
+	top: -30%;
+	transition: 4s;
+}
+
+#LibrSph:hover img {
+	opacity: 100%;
+	transition: 4s;
+}
+
+#Rigister {
+	width: 200px;
+}
+
+#Rigister .eclipse {
+	height: 471px;
+	width: 471px;
+	top: 200%;
+	left : -50%;
+	transition: 4s;
+}
+
+#Rigister:hover .eclipse {
+	top: -50%;
+	transition: 4s;
+}
+
+#clicker .eclipse {
+	top: 130%;
+	transition: 4s;
+}
+
+#clicker:hover .eclipse {
+	top: -30%;
+	transition: 4s;
+}
+
+.font {
+	opacity: 100%;
+	display : flex;
+	justify-content : center;
+	align-items: center;
+	text-shadow: 1px 1px #ffffff;
+	font-size: 16px;
+}
+
+.eclipse {
+	position: absolute;
+	width: 314px;
+	height: 314px;
+	top: 130%;
+	left: -100%;
+	mix-blend-mode: hard-light;
+	animation: roll 2s infinite linear;
+	transition: 4s;
+	border-radius: 33%;
+}
+
+@keyframes roll { 
+	100% {transform: rotate(360deg);}
+}
